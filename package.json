@@ -1,0 +1,20 @@
+{
+  "name": "graphql-gateway-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mesh dev",
+    "start": "mesh start",
+    "build": "mesh build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.88.4",
+    "@graphql-mesh/openapi": "^0.97.3",
+    "@graphql-mesh/transform-rename": "^0.96.2",
+    "graphql": "^16.8.1"
+  }
+}
